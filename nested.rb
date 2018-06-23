@@ -56,7 +56,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		 print programmer_hash[:dennis_ritchie][:languages]
+		 print programmer_hash[:dennis_ritchie][:languages].join
 end
 dennis_ritchies_language
 
